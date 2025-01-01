@@ -1,0 +1,160 @@
+/* Navigation Bar and Header */
+
+a {
+	color: white;
+}
+
+nav a {
+	text-decoration: none;
+	color: #6E9FC1;
+	width: 100px;
+	display: block;
+	padding: 5px;
+	font-size: 18;
+	transition: 0.4s;
+}
+
+header {
+	background-color: #395A7F;
+	text-align:center;
+}
+
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px;
+}
+
+.onpage {
+	color: #FFFFFF;
+}
+
+body {
+	font-family: "Lato", tahoma;
+	background-color: #6E9FC1;
+	color: white;
+	margin: 0;
+	padding:0;
+	min-width: 1200px;
+}
+
+.image-text {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+img.s {
+	width: 300px; 
+	height: 300px; 
+	border-radius: 150px;
+	margin-right: 4%;
+}
+
+.text-container {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+}
+
+.textp {
+	font-family: "Lato", tahoma;
+	text-align: center;
+	font-size: 40px;
+	line-height:1;
+}
+
+.large-text {
+	text-align: center;
+	font-size: 85px;
+	font-weight: bold;
+	font-style: normal;
+}
+
+.large-text:hover {
+	color: #395A7F;
+}
+
+p.medium-text {
+	text-align: center;
+	font-size: 45px;
+	font-weight: bold;
+	line-height:0;
+	padding: 0;
+}
+
+.medium-text:hover {
+	font-size: 48px;
+}
+
+p.regular-text {
+	text-align: center;
+	font-size: 24px;
+	line-height:1;
+	margin-right: 15%;
+	margin-left: 15%;
+}
+
+.small-text {
+	text-align: center;
+	font-size: 40px;
+	font-style: normal;
+	line-height:1;
+}
+
+.topDivider{
+	border-top-style: solid;
+	border-top-width:4px;
+	border-top-color: white;
+	margin-right: 40%;
+	margin-left: 40%;
+}
+
+.aboutme-info {
+	padding-bottom: 1%;
+}
+
+.imgside {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.imgside:hover {
+	transform: translateY(-5px);
+	transition: all 0.3s ease-out;
+}
+
+p.vert-line-textL {
+	text-align: right;
+	line-height: 1;
+	font-size: 40px;
+	font-weight: bold;
+	position: absolute;
+	margin-right:270px;
+
+}
+
+
+p.vert-line-textR {
+	text-align: left;
+	font-size: 46px;
+	font-weight: bold;
+	position: absolute;
+	margin-left: 390px;
+
+}
+
+
+.dumbbellpic img {
+	float: center;
+	margin-top: 5px;
+	padding: 0px;
+	height: auto;
+	width: 380px;
+}
+
+/* If weird try h2{both clear something }  
+					<p class="vert-line-textL2">My</p>
+					<p class="vert-line-textL3">Strenghts</p>*/
