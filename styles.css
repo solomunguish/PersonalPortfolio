@@ -31,7 +31,7 @@ nav ul li{
     transition: all 0.3s ease 0s;
 }
 
-button {
+.contact-btn {
     padding: 9px 25px;
     background-color: #6E9FC1;
     color: #FFFFFF;
@@ -40,16 +40,37 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: 18px;
+    font-family: "Lato", tahoma;
 }
-button:hover{
+.contact-btn:hover {
     background-color: #FFFFFF;
     color: #6E9FC1;
 }
 
 .contact {
-    font-size: 18px;
+    margin-right: 3%;
+}
+
+.who-btn {
+    padding: 9px 25px;
+    background-color: #FFFFFF;
+    color: #6E9FC1;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    font-size: 25px;
     font-family: "Lato", tahoma;
-    margin-right: 2%;
+    margin-top: 2px;
+}
+
+.who-btn:hover {
+    background-color: #395A7F;
+    color: #FFFFFF;
+}
+
+.who {
+    text-align: center;
 }
 
 .onpage {
@@ -82,7 +103,7 @@ img.s {
 .text-container {
 	display: flex;
 	flex-direction: column;
-	align-items: flex-start;
+	align-items: center;
 }
 
 .textp {
@@ -103,13 +124,12 @@ p.medium-text {
 	text-align: center;
 	font-size: 45px;
 	font-weight: bold;
-	line-height:0;
-	padding: 0;
+	######line-height:0;
 }
 
 p.regular-text {
 	text-align: center;
-	font-size: 24px;
+	font-size: 22px;
 	line-height:1;
 	margin-right: 15%;
 	margin-left: 15%;
@@ -122,20 +142,12 @@ p.regular-text {
 	line-height:1;
 }
 
-.topDivider{
-	border-top-style: solid;
-	border-top-width:4px;
-	border-top-color: white;
-	margin-right: 40%;
-	margin-left: 40%;
-}
-
 .aboutme-info {
-	padding-bottom: 1%;
+	padding: 1%;
 }
 
 .aboutme-section {
-    background-color: rgb(44, 86, 121);
+    background-color: #395A7F;
 }
 
 .imgside {
