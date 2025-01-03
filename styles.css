@@ -31,6 +31,14 @@ nav ul li{
     transition: all 0.3s ease 0s;
 }
 
+#imagefront {
+    width: 100%;
+    height: 100vh;
+    background-image: url(assets\images\IMG_6724.PNG);
+    background-size: cover;
+    background-position: center;
+}
+
 .contact-btn {
     padding: 9px 25px;
     background-color: #6E9FC1;
@@ -59,7 +67,8 @@ nav ul li{
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    font-size: 25px;
+    font-size: 30px;
+    font-weight: bold;
     font-family: "Lato", tahoma;
     margin-top: 2px;
 }
@@ -86,11 +95,13 @@ body {
 	min-width: 1200px;
 }
 
+
 .image-text {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-    padding: 10%;
+    width: 100%;
+    height: 100vh;
 }
 
 img.s {
@@ -124,7 +135,7 @@ p.medium-text {
 	text-align: center;
 	font-size: 45px;
 	font-weight: bold;
-	######line-height:0;
+    line-height:0;
 }
 
 p.regular-text {
@@ -148,13 +159,18 @@ p.regular-text {
 
 .aboutme-section {
     background-color: #395A7F;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
 .imgside {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
 p.vert-line-textL {
