@@ -1,7 +1,12 @@
 /* Navigation Bar and Header */
 
+
 a {
 	color: white;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 nav a {
