@@ -9,12 +9,9 @@
 	font-family: "Lato", tahoma;
 }
 
-a {
-	color: white;
-}
-
 html {
     scroll-behavior: smooth;
+	scroll-padding-top: 50px;
 }
 
 nav a {
@@ -36,6 +33,7 @@ header {
     align-items: center;
     position: sticky;
     top: 0;
+	z-index: 1000;
 }
 
 nav ul li{
@@ -230,6 +228,7 @@ p.regular-bg {
     scroll-snap-align: start;
 }
 
+/* DELETED DUMBBEL SECTION STARTS HERE */
 
 .imgside {
 	display: flex;
@@ -268,6 +267,8 @@ p.vert-line-textR {
 	height: auto;
 	width: 380px;
 }
+
+/* DELETED DUMBBEL SECTION ENDS HERE */
 
 .timeline-section{
 	background-color: #7A99C2;
@@ -360,5 +361,5 @@ p.vert-line-textR {
 
 
 .footer {
-	color: #395A7F;
+	color: #7A99C2;
 }
