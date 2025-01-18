@@ -228,6 +228,18 @@ p.regular-bg {
     scroll-snap-align: start;
 }
 
+.portfolio-info {
+	padding: 1%;
+}
+
+.portfolio-section {
+    background-color: #7A99C2;
+    color:#FFFFFF;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
+}
+
 /* DELETED DUMBBEL SECTION STARTS HERE */
 
 .imgside {
@@ -282,6 +294,7 @@ p.vert-line-textR {
 	flex-wrap: wrap;
 	position: relative;
 }
+
 .timeline-items::before{
 	content: '';
 	position: absolute;
@@ -290,11 +303,13 @@ p.vert-line-textR {
 	background-color: #7A99C2;
 	left: calc(50% - 1px);
 }
+
 .timeline-item{
 	margin-bottom: 40px;
 	width: 100%;
 	position: relative;
 }
+
 .timeline-item:last-child{
 	margin-bottom: 0;
 }
@@ -317,16 +332,19 @@ p.vert-line-textR {
 	border-radius: 50%;
 	top:10px;
 }
+
 .timeline-date{
 	font-size: 18px;
 	color: #395A7F;
 	margin:6px 0 15px;
 }
+
 .timeline-content{
     background-color: #7A99C2;
 	padding: 30px;
 	border-radius: 5px;
 }
+
 .timeline-content h3{
     font-size: 18px;
 	color: #ffffff;
@@ -334,6 +352,7 @@ p.vert-line-textR {
 	text-transform: capitalize;
 	font-weight: 500;
 }
+
 .timeline-content p{
     color: #ffffff;
 	font-size: 14px;
@@ -359,6 +378,53 @@ p.vert-line-textR {
 	}
 }
 
+.work-list {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	grid-gap: 40px;
+	margin-top: 30px;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+
+.work {
+	border-radius: 10px;
+	position: relative;
+	overflow: hidden;
+}
+
+.work img {
+	width: 100%;
+	border-radius: 10px;
+	display: block;
+}
+
+.layer {
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(rgba(0, 0, 0, 0.4), #395A7F);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+}
+
+.work-title {
+	text-align: center;
+	font-size: 25px;
+	font-weight: bold;
+    line-height:1;
+}
+
+.layer .workp {
+	margin-left: 1%;
+	margin-right: 1%;
+}
 
 .footer {
 	color: #7A99C2;
