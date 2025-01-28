@@ -361,7 +361,7 @@ p.vert-line-textR {
 }
 
 /* responsive */
-@media(max-width: 767px){
+@media(max-width: 1700px){
 	.timeline-items::before{
 		left: 7px;
 	}
@@ -376,6 +376,14 @@ p.vert-line-textR {
 	.timeline-dot{
 		left:0;
 	}
+}s
+
+.portfolio-section {
+	background-color: #FFFFFF;
+    color:#395A7F;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: start;
 }
 
 .work-list {
